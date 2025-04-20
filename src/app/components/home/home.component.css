@@ -1,11 +1,27 @@
-.carousel-item img {
-    width: 100%;
-    height: auto;
-    max-height: 100px;
-    object-fit: contain;
-  }
+.text-p{
+  top: 25%;
+  left: 25%;
+}
 
-  .carousel {
-    max-width: 100px;
-    margin: auto;
-  }
+.sec-3
+{
+    background-image:url(../../../assets/img/jason-dent-w3eFhqXjkZE-unsplash.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.sec-3 .lay 
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+/* .bg-sec-4{
+  background-image: url(../../../assets/img/8945c530a4768c1b90a530bf1ec0b32d-1.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+} */
