@@ -24,4 +24,10 @@ export class HomeComponent {
     items:1,
     nav: true
   }
+  // isshow= false;
+  data = {
+    title: 'Contact',
+    image: 'assets/img/breadcrumb-2.jpg',
+    alt:'background',
+  };
 }

@@ -1,14 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { OpenningPageComponent } from '../shaered components/openning-page/openning-page.component';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-services',
   standalone: true,
-  imports: [OpenningPageComponent],
+  imports: [OpenningPageComponent,NgIf],
   templateUrl: './services.component.html',
   styleUrl: './services.component.css'
 })
 export class ServicesComponent {
+  @Input() oppenning_isshow: boolean = true;
   data = {
     title: 'Contact',
     image: 'assets/img/breadcrumb-2.jpg',
