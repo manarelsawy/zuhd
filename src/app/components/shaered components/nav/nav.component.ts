@@ -4,11 +4,12 @@ import { MegaMenuModule } from 'primeng/megamenu';
 import { ButtonModule } from 'primeng/button';
 import { CommonModule } from '@angular/common';
 import { AvatarModule } from 'primeng/avatar';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [MegaMenuModule, ButtonModule, CommonModule, AvatarModule],
+  imports: [MegaMenuModule, ButtonModule, CommonModule, AvatarModule,RouterLink],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })
