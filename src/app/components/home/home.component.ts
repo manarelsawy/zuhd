@@ -16,7 +16,7 @@ export class HomeComponent {
     touchDrag: false,
     pullDrag: false,
     autoplay: true,
-    autoplayTimeout : 3000,
+    autoplayTimeout : 5000,
     autoplayHoverPause : true,
     dots: false,
     navSpeed: 700,
@@ -24,4 +24,10 @@ export class HomeComponent {
     items:1,
     nav: true
   }
+  // isshow= false;
+  data = {
+    title: 'Contact',
+    image: 'assets/img/breadcrumb-2.jpg',
+    alt:'background',
+  };
 }

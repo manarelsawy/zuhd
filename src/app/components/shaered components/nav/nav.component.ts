@@ -1,20 +1,21 @@
-import { Component } from '@angular/core';
+import { Component , Input } from '@angular/core';
 import { MegaMenuItem } from 'primeng/api';
 import { MegaMenuModule } from 'primeng/megamenu';
 import { ButtonModule } from 'primeng/button';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgClass } from '@angular/common';
 import { AvatarModule } from 'primeng/avatar';
 import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
   standalone: true,
-  imports: [MegaMenuModule, ButtonModule, CommonModule, AvatarModule,RouterLink],
+  imports: [MegaMenuModule, ButtonModule, CommonModule, AvatarModule,RouterLink , NgClass],
   templateUrl: './nav.component.html',
   styleUrl: './nav.component.css'
 })
 export class NavComponent {
   items: MegaMenuItem[] | undefined;
+
 
   ngOnInit() {
       this.items = [

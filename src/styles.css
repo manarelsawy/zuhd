@@ -1,5 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
 
+:root {
+    --main-color: #fff;
+    --secondary-color:  #1a1a1a;
+    --third-color: #999999;
+    --font-family: "Cairo";
+    --main-header: 32px ;
+    --sub-header : 24px:
+  }
+
+  .bd-bark{
+    background-color: #1a1a1a;
+  }
+
+
+  .main-font{
+    font-size: 20px ;
+    font-weight: 500;
+  }
+  .menu-font{
+    font-size: 16px;
+  }
+
+  .sub-font{
+    font-size:48px ;
+    font-weight: 500;
+  }
+
+  .h-font{
+    font-size:52px ;
+    font-weight: 500;
+  }
 
 .dr{
     direction: rtl;

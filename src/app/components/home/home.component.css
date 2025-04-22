@@ -1,7 +1,116 @@
-.text-p{
+/* .text-p{
   top: 25%;
   left: 25%;
+} */
+
+/* .text-p {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  color: black;
+  width: 100%;
+  padding: 0 1rem;
+} */
+
+
+.text-p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* خلفية شفافة تغطي الصورة */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
 }
+
+.text-p h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.text-p p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+}
+
+.text-p button {
+  margin: 0 0.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  border-radius: 30px;
+}
+
+.text-p button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .sec-3 {
+  background-image: url('../../../assets/img/8945c530a4768c1b90a530bf1ec0b32d-1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+} */
+
+.lay {
+  height: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* تغبيش غامق */
+  z-index: 0;
+}
+
+.z-1 {
+  z-index: 1 !important;
+}
+
+.custom-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+
+
 
 .sec-3
 {
@@ -13,11 +122,35 @@
     
 }
 
-.sec-3 .lay 
+/* .sec-3 .lay 
 {
     background-color: rgba(0, 0, 0, 0.5);
     
+} */
+
+.custom-image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
 }
+
+.custom-image-wrapper img {
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.image-layer {
+  position: absolute;
+  bottom: -20px;  /* يحرك اللير لتحت */
+  right: -20px;    /* يحرك اللير للشمال */
+  width: 100%;
+  height: 100%;
+  background-color: #3e7dc0;
+  z-index: 0;
+}
+
 
 /* .bg-sec-4{
   background-image: url(../../../assets/img/8945c530a4768c1b90a530bf1ec0b32d-1.jpg);

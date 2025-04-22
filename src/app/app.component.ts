@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from "./components/header/header.component";
 import { NavComponent } from "./components/shaered components/nav/nav.component";
@@ -15,4 +15,7 @@ import { FooterComponent } from './components/shaered components/footer/footer.c
 })
 export class AppComponent {
   title = 'zuhd';
+ 
+
+  
 }
