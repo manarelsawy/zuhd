@@ -12,7 +12,7 @@ import { NgIf } from '@angular/common';
 export class ServicesComponent {
   @Input() oppenning_isshow: boolean = true;
   data = {
-    title: 'Contact',
+    title: 'Services 1',
     image: 'assets/img/breadcrumb-2.jpg',
     alt:'background',
   }

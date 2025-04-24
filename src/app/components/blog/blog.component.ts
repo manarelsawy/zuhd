@@ -10,7 +10,7 @@ import { OpenningPageComponent } from '../shaered components/openning-page/openn
 })
 export class BlogComponent {
   data = {
-    title: 'Contact',
+    title: 'أهم الموضوعات',
     image: 'assets/img/breadcrumb-2.jpg',
     alt:'background',
   }

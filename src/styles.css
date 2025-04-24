@@ -8,6 +8,10 @@
     --main-header: 32px ;
     --sub-header : 24px:
   }
+  
+  body{
+    font-family: "Heebo", sans-serif;
+  }
 
   .bd-bark{
     background-color: #1a1a1a;
@@ -35,4 +39,21 @@
 .dr{
     direction: rtl;
     text-align: right;
+}
+
+.custom-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-btn:hover {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-2px);
 }
